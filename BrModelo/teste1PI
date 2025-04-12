@@ -1,0 +1,32 @@
+select*from usuario
+select*from pet
+select*from cuidado
+select*from areaderisco
+select*from endereco
+select*from enchente
+
+
+insert into enchente(id_enchente,nome,data)
+values(1,'Enchente 2024','2024\04\04')
+insert into endereco(id_endereco,cep,rua,numero,bairro)
+values
+(1,123213213,'Josedieguesbasalo',334,'Boqueirao')
+
+insert into usuario(id_usuario,nomecompleto,cpf,email,senha)
+values 
+(1,'Josue',12312312312,'helodarkenesmyoldifriendo@gmail.com','batatatatacos')
+
+
+insert into pet(id_pet,nome,raca)
+values 
+(1,'Toby','Catchorro linguiça')
+
+
+insert into cuidado(fk_pet_id_pet,fk_usuario__id_usuario)
+values(1,1)
+
+insert into areaderisco(id_risco,nome,descricao)
+values
+(1,'Baixo','Agua chegou a 1m'),
+(2,'Medio','Agua chegou a 3m'),
+(3,'Alto','Agua ultrapassou 5m')
