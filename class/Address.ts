@@ -1,5 +1,6 @@
 export class Address {
-    private zipCode: string;
+    private id_address:number
+    private CPF: string;
     private number: number;
     private neighborhood: string;
     private latitude: string;
@@ -10,7 +11,8 @@ export class Address {
     private normalRiverHeight: string;
 
     constructor(
-        zipCode: string,
+        id_address:number,
+        CPF: string,
         number: number,
         neighborhood: string,
         latitude: string,
@@ -20,7 +22,8 @@ export class Address {
         street: string,
         normalRiverHeight: string
     ) {
-        this.zipCode = zipCode;
+        this.id_address = id_address
+        this.CPF = CPF;
         this.number = number;
         this.neighborhood = neighborhood;
         this.latitude = latitude;
@@ -30,8 +33,10 @@ export class Address {
         this.street = street;
         this.normalRiverHeight = normalRiverHeight;
     }
-
-    setZipCode(zipCode: string): void {this.zipCode = zipCode; 
+    
+    setID_Address(id_address:number):void{this.id_address = id_address    
+    };
+    setCPF(CPF: string): void {this.CPF = CPF
     };
     setNumber(number: number): void {this.number = number; 
     };
@@ -50,7 +55,9 @@ export class Address {
     setNormalRiverHeight(normalRiverHeight: string): void {this.normalRiverHeight = normalRiverHeight; 
     };
 
-    getZipCode(): string {return this.zipCode; 
+    getId_Address():number{return this.id_address
+    };
+    getCPF(): string {return this.CPF; 
     };
     getNumber(): number {return this.number;
     };
