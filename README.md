@@ -8,5 +8,5 @@ O projeto ultiliza dados de casos anteriores para auxiliar, definir zonas de ris
 <img src="https://github.com/riansantos21/P.I/blob/main/BrModelo/Pi-Conceitual.png">
 
 ## Modelo Logico
-<img src="[https://github.com/riansantos21/P.I/blob/main/BrModelo/Pi-Logico.png](https://github.com/riansantos21/P.I/blob/main/BrModelo/PI_Logico.png?raw=true)">
+<img src="(https://github.com/riansantos21/P.I/blob/main/BrModelo/PI_Logico.png)">
 
