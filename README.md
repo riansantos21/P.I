@@ -18,6 +18,6 @@ O projeto ultiliza dados de casos anteriores para auxiliar, definir zonas de ris
 <img src="https://github.com/riansantos21/P.I/blob/main/BrModelo/PI_Logico.png">
 
 
-## Miro
+## Software Metologia Agil
 
-Link: [Software Metodologia Agil](https://miro.com/welcomeonboard/dmJuRVFIRXJQYnExTXYzaWhlcmhmYXRtc2hxeVF4WWRvWjBqTTZUV1VtTVJWdkFxWmZRZEFXQWttT3RwVUFMKytoemJHV3VBeGtUdW0rVEpzY1JsdnpKTFZmb0UvWGlJeWJodVRCcjRMRVVvT3E1YzN0SHZDMEcxZXhNS3pBK29QdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=250918291327)
+Link: [Miro](https://miro.com/welcomeonboard/dmJuRVFIRXJQYnExTXYzaWhlcmhmYXRtc2hxeVF4WWRvWjBqTTZUV1VtTVJWdkFxWmZRZEFXQWttT3RwVUFMKytoemJHV3VBeGtUdW0rVEpzY1JsdnpKTFZmb0UvWGlJeWJodVRCcjRMRVVvT3E1YzN0SHZDMEcxZXhNS3pBK29QdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=250918291327)
