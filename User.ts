@@ -1,4 +1,4 @@
-export class usuario {
+export class user {
     private id_user:number
     private name:string;
     private CPF:string;
