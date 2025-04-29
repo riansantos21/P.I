@@ -24,10 +24,4 @@ Link: [Miro](https://miro.com/welcomeonboard/dmJuRVFIRXJQYnExTXYzaWhlcmhmYXRtc2h
 
 
 ## Artigos
-
-[Artigo 1](http://anais.eati.info:8080/index.php/2019/article/view/31)
-[Artigo 2](https://sol.sbc.org.br/index.php/wcama/article/view/2933)
-[Artigo 3](https://publicacao.uniasselvi.com.br/index.php/TI_EaD/article/view/1614)
-[Artigo 4](https://repositorio.ifsp.edu.br/handle/123456789/1076)
-[Artigo 5](https://repositorio.ifrs.edu.br/bitstream/handle/123456789/1960/1234567891960.pdf?sequence=1&isAllowed=y#page=97)
-[Artigo 6](https://repositorio.sis.puc-campinas.edu.br/handle/123456789/15031?locale-attribute=en)
+[]()
