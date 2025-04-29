@@ -22,6 +22,9 @@ O projeto ultiliza dados de casos anteriores para auxiliar, definir zonas de ris
 
 Link: [Miro](https://miro.com/welcomeonboard/dmJuRVFIRXJQYnExTXYzaWhlcmhmYXRtc2hxeVF4WWRvWjBqTTZUV1VtTVJWdkFxWmZRZEFXQWttT3RwVUFMKytoemJHV3VBeGtUdW0rVEpzY1JsdnpKTFZmb0UvWGlJeWJodVRCcjRMRVVvT3E1YzN0SHZDMEcxZXhNS3pBK29QdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=250918291327)
 
+## Apresentação
+
+[Link Canva](https://www.canva.com/design/DAGZ07xiAhw/eMxuTNqAgjwLpmTbPxFrhw/edit?utm_content=DAGZ07xiAhw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Artigos
 [OverLeaf](https://www.overleaf.com/read/bgqcjmdmvmhm#705f8c)
