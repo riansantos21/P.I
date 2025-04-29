@@ -24,7 +24,17 @@ Link: [Miro](https://miro.com/welcomeonboard/dmJuRVFIRXJQYnExTXYzaWhlcmhmYXRtc2h
 
 ## Apresentação
 
-[Link Canva](https://www.canva.com/design/DAGZ07xiAhw/eMxuTNqAgjwLpmTbPxFrhw/edit?utm_content=DAGZ07xiAhw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
+[Apresentação Canva](https://www.canva.com/design/DAGZ07xiAhw/WQPustfPXW6BpEaH1Ip4UQ/view?utm_content=DAGZ07xiAhw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2a30923b01)
 ## Artigos
 [OverLeaf](https://www.overleaf.com/read/bgqcjmdmvmhm#705f8c)
+
+
+
+
+
+
+
+## Outros
+
+
+[Editar Canva](https://www.canva.com/design/DAGZ07xiAhw/eMxuTNqAgjwLpmTbPxFrhw/edit?utm_content=DAGZ07xiAhw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
