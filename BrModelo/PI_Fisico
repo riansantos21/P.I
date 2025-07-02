@@ -1,4 +1,4 @@
-/* Lógico_1: */
+/* LÃ³gico_1: */
 
 CREATE TABLE Usuario (
     ID_Usuario INT PRIMARY KEY,
@@ -98,16 +98,13 @@ CREATE TABLE Tem (
     ID_Endereco INT
 );
 
-select*from abrigo
-
-
 ALTER TABLE RiscoGeralArea ADD CONSTRAINT FK_RiscoGeralArea_1
     FOREIGN KEY (ID_Endereco)
     REFERENCES Endereco (ID_Endereco);
  
  ALTER TABLE Abrigo ADD CONSTRAINT FK_Abrigo_2
     FOREIGN KEY (ID_Endereco)
-    REFERENCES Endereco (id_endereco)
+    REFERENCES Endereco (ID_Endereco)
     ON DELETE CASCADE;
  
 ALTER TABLE RiscoGeralArea ADD CONSTRAINT FK_RiscoGeralArea_2
@@ -156,5 +153,5 @@ ALTER TABLE Tem ADD CONSTRAINT FK_Tem_1
  
 ALTER TABLE Tem ADD CONSTRAINT FK_Tem_2
     FOREIGN KEY (ID_Endereco)
-    REFERENCES Endereco (ID_endereco)
+    REFERENCES Endereco (ID_Endereco)
     ON DELETE SET NULL;
