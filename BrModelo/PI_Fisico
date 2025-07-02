@@ -1,5 +1,3 @@
-/* Lógico_1: */
-
 CREATE TABLE Usuario (
     ID_Usuario INT PRIMARY KEY,
     CPF VARCHAR(11),
@@ -17,7 +15,7 @@ CREATE TABLE Abrigo (
     ID_abrigo INT PRIMARY KEY,
     DataCadastro DATE,
     Lotacao INT,
-    fk_Endereco_ID_Endereco INT
+    ID_Endereco INT
 );
 
 CREATE TABLE Endereco (
@@ -104,7 +102,7 @@ ALTER TABLE RiscoGeralArea ADD CONSTRAINT FK_RiscoGeralArea_1
  
  ALTER TABLE Abrigo ADD CONSTRAINT FK_Abrigo_2
     FOREIGN KEY (ID_Endereco)
-    REFERENCES Endereco (ID_Endereco)
+    REFERENCES Endereco (id_endereco)
     ON DELETE CASCADE;
  
 ALTER TABLE RiscoGeralArea ADD CONSTRAINT FK_RiscoGeralArea_2
