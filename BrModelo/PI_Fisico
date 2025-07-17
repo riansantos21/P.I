@@ -7,6 +7,7 @@ CREATE TABLE Usuario (
   DataCadastro DATE,
   Telefone VARCHAR(13)
 );
+select * from Usuario
 
 CREATE TABLE Endereco (
   ID_Endereco SERIAL PRIMARY KEY,
@@ -71,13 +72,7 @@ CREATE TABLE Rio (
   Hora TIME
 );
 
-CREATE TABLE Post (
-  Id_Post SERIAL PRIMARY KEY,
-  DataPost DATE,
-  Imagem VARCHAR(100),
-  ID_Usuario INT NOT NULL,
-  FOREIGN KEY (ID_Usuario) REFERENCES Usuario(ID_Usuario)
-);
+
 
 CREATE TABLE HistoricoEnchente (
   ID_Enchente INT NOT NULL,
@@ -105,94 +100,12 @@ CREATE TABLE e (
   FOREIGN KEY (ID_abrigo) REFERENCES Abrigo(ID_abrigo)
 );
 
+
+
 CREATE TABLE Tem (
   ID_Usuario INT NOT NULL,
   ID_Endereco INT NOT NULL,
   PRIMARY KEY (ID_Usuario, ID_Endereco),
   FOREIGN KEY (ID_Usuario) REFERENCES Usuario(ID_Usuario),
-  FOREIGN KEY (ID_Endereco) REFERENCES Endereco(ID_Endereco)
-);
-
-
-
-END $$;
-
-
--- Usuario
-INSERT INTO Usuario (CPF, Email, Senha, NomeCompleto, DataCadastro, Telefone) VALUES
-('12345678901', 'user1@example.com', 'senha123', 'João Silva', '2023-01-15', '11999999999'),
-('23456789012', 'user2@example.com', 'senha456', 'Maria Souza', '2023-02-10', '21988888888'),
-('34567890123', 'user3@example.com', 'senha789', 'Carlos Pereira', '2023-03-05', '31977777777');
-
--- Endereco
-INSERT INTO Endereco (CEP, Numero, Bairro, Latitude, Longitude, Cidade, Complemento, Rua, AlturaNormalDoRio) VALUES
-('12345-678', 100, 'Centro', '-23.5505', '-46.6333', 'São Paulo', 'Apto 101', 'Rua das Flores', '2m'),
-('23456-789', 200, 'Jardim', '-22.9083', '-43.1964', 'Rio de Janeiro', 'Casa', 'Av. Atlântica', '1.8m'),
-('34567-890', 300, 'Bela Vista', '-19.9208', '-43.9378', 'Belo Horizonte', 'Bloco B', 'Rua dos Pinheiros', '2.1m');
-
--- Abrigo
-INSERT INTO Abrigo (Dono, Suprimentos, Capacidade, DataCadastro, Lotacao, ID_Endereco) VALUES
-('João Silva', 'Ração, Cobertores', 50, '2023-01-20', 10, 1),
-('Maria Souza', 'Medicamentos, Água', 30, '2023-02-15', 5, 2),
-('Carlos Pereira', 'Ração, Remédios', 40, '2023-03-10', 20, 3);
-
--- Pet
-INSERT INTO Pet (Nome, Raca, Foto, Tipo, Peso, Status, Sexo) VALUES
-('Rex', 'Labrador', 'rex.jpg', 'Cachorro', '25kg', 'Resgatado', 'M'),
-('Mimi', 'Siamês', 'mimi.jpg', 'Gato', '5kg', 'Resgatado', 'F'),
-('Bolt', 'Pastor Alemão', 'bolt.jpg', 'Cachorro', '30kg', 'Disponível', 'M');
-
--- AreaDeRisco
-INSERT INTO AreaDeRisco (Descricao, Nome) VALUES
-('Área sujeita a enchentes frequentes durante o verão.', 'Zona Norte'),
-('Região com risco de deslizamento em caso de chuvas fortes.', 'Zona Sul'),
-('Área propensa a alagamentos após tempestades.', 'Zona Leste');
-
--- Enchente
-INSERT INTO Enchente (Nome, Data) VALUES
-('Enchente 2022', '2022-12-15'),
-('Enchente 2023', '2023-01-20'),
-('Enchente 2024', '2024-03-05');
-
--- RiscoGeralArea
-INSERT INTO RiscoGeralArea (ID_Endereco, ID_Risco, Rio_DataHora) VALUES
-(1, 1, '2023-01-15'),
-(2, 2, '2023-02-10'),
-(3, 3, '2023-03-05');
-
--- Rio
-INSERT INTO Rio (DataHora, Altura, Data, Hora) VALUES
-('2023-01-15 14:00:00', '3.5m', '2023-01-15', '14:00:00'),
-('2023-02-10 10:30:00', '2.8m', '2023-02-10', '10:30:00'),
-('2023-03-05 16:45:00', '4.0m', '2023-03-05', '16:45:00');
-
--- Post
-INSERT INTO Post (DataPost, Imagem, ID_Usuario) VALUES
-('2023-01-16', 'post1.jpg', 1),
-('2023-02-11', 'post2.jpg', 2),
-('2023-03-06', 'post3.jpg', 3);
-
--- HistoricoEnchente
-INSERT INTO HistoricoEnchente (ID_Enchente, ID_Endereco) VALUES
-(1, 1),
-(2, 2),
-(3, 3);
-
--- Resgatar_Salva
-INSERT INTO Resgatar_Salva (NomeTutor, TelefoneTutor, LocalResgate, ID_Pet, ID_abrigo) VALUES
-('Ana Lima', '11999999999', 'Centro', 1, 1),
-('Bruno Alves', '21988888888', 'Jardim', 2, 2),
-('Clara Dias', '31977777777', 'Bela Vista', 3, 3);
-
--- e (relacionamento Usuario-Abrigo)
-INSERT INTO e (ID_Usuario, ID_abrigo) VALUES
-(1, 1),
-(2, 2),
-(3, 3);
-
--- Tem (relacionamento Usuario-Endereco)
-INSERT INTO Tem (ID_Usuario, ID_Endereco) VALUES
-(1, 1),
-(2, 2),
-(3, 3);
+  FOREIGN 
 
