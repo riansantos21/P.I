@@ -35,13 +35,12 @@ CREATE TABLE Abrigo (
 
 CREATE TABLE Pet (
   ID_Pet BIGSERIAL PRIMARY KEY,
-  Nome VARCHAR(20),
-  Raca VARCHAR(20),
-  Foto VARCHAR(20),
-  Tipo VARCHAR(20),
-  Peso VARCHAR(20),
-  Status VARCHAR(20),
-  Sexo VARCHAR(5)
+  Nome VARCHAR(255),
+  Raca VARCHAR(255),
+  Porte VARCHAR(255),
+  Peso VARCHAR(255),
+  Status VARCHAR(255),
+  Sexo VARCHAR(2555)
 );
 
 CREATE TABLE AreaDeRisco (
