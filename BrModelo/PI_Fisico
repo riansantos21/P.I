@@ -26,9 +26,8 @@ CREATE TABLE Abrigo (
   ID_abrigo BIGSERIAL PRIMARY KEY,
   Dono VARCHAR(40),
   Suprimentos VARCHAR(100),
-  Capacidade INT,
+  Capacidade VARCHAR(255),
   DataCadastro DATE,
-  Lotacao INT,
   ID_Endereco INT NOT NULL,
   FOREIGN KEY (ID_Endereco) REFERENCES Endereco(ID_Endereco)
 );
