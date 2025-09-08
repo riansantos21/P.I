@@ -1,11 +1,11 @@
 # ResgaTech
 
 ### Integrantes
-. Ryan
-. Everton
-. João Pedro
-. Rodrigo
-. Raul
+- Ryan
+- Everton
+- João Pedro
+- Rodrigo
+- Raul
 
 ## Descrição
 Nosso projeto busca auxiliar no caso de problemas com enchentes na região da cidade de São Leopoldo, Rio Grande do Sul.
