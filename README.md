@@ -5,7 +5,7 @@
 - Raul
 - Rodrigo
 - Ryan
-- Éverton
+- Éverton Eduardo Rodrigues Reis
 
 ## Descrição
 Nosso projeto busca auxiliar no caso de problemas com enchentes na região da cidade de São Leopoldo, Rio Grande do Sul.
