@@ -1,10 +1,10 @@
 # ResgaTech
 
 ### Integrantes
-- João
-- Raul
+- João Boehme
+- Raul Boehme
 - Rodrigo
-- Ryan
+- Ryan Andre Santos Cabral
 - Éverton Eduardo Rodrigues Reis
 
 ## Descrição
