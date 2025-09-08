@@ -1,15 +1,16 @@
 # ResgaTech
 
+### Integrantes
+. Ryan
+. Everton
+. João Pedro
+. Rodrigo
+. Raul
+
 ## Descrição
 Nosso projeto busca auxiliar no caso de problemas com enchentes na região da cidade de São Leopoldo, Rio Grande do Sul.
 O projeto ultiliza dados de casos anteriores para auxiliar, definir zonas de risco e pontos seguros.
 
-### Integrantes
--Ryan
--Everton
--João Pedro
--Rodrigo
--Raul
 
 ## Modelo Conceitual
 <img src="https://github.com/riansantos21/P.I/blob/main/BrModelo/PI_Conceitual.png">
