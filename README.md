@@ -1,9 +1,8 @@
-# ResgaTech
 
 <h1 align="center">ResgaTech</h1>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ffd9a30c-1fc7-4a2b-a7b0-31badfd6231d" alt="Titulo" />
+  
 </p>
 
 ### Integrantes
