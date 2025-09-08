@@ -1,8 +1,5 @@
 # ResgaTech
 
-![ResgaTech]('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap')
-
-
 ### Integrantes
 - João Boehme
 - Raul Boehme
