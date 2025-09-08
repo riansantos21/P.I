@@ -12,7 +12,7 @@
 - Ryan Andre Santos Cabral
 - Éverton Eduardo Rodrigues Reis
 
-<h3 align="center">ResgaTech</h3>
+<h3 align="center">Descrição do Projeto</h3>
 
 <p align="center">
 Nosso projeto busca auxiliar no caso de problemas com enchentes na região da cidade de São Leopoldo, Rio Grande do Sul.
