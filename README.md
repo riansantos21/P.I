@@ -7,7 +7,7 @@
 - Ryan Andre Santos Cabral
 - Éverton Eduardo Rodrigues Reis
 
-## Descrição
+## Descrição Do Projeto
 Nosso projeto busca auxiliar no caso de problemas com enchentes na região da cidade de São Leopoldo, Rio Grande do Sul.
 O projeto ultiliza dados de casos anteriores para auxiliar, definir zonas de risco e pontos seguros.
 
