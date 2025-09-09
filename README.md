@@ -6,9 +6,9 @@
 </p>
 
 ### Integrantes
-- João Boehme
+- João Pedro
 - Raul Boehme
-- Rodrigo
+- Rodrigo Boehme
 - Ryan Andre Santos Cabral
 - Éverton Eduardo Rodrigues Reis
 
