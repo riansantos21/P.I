@@ -9,7 +9,7 @@
 - João Pedro
 - Raul Boehme
 - Rodrigo Boehme
-- Ryan Andre Santos Cabral
+- Rian Andre Santos Cabral
 - Éverton Eduardo Rodrigues Reis
 
 <h3 align="center">Descrição do Projeto</h3>
